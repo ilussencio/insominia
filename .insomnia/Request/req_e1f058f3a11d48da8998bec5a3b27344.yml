@@ -1,0 +1,23 @@
+_id: req_e1f058f3a11d48da8998bec5a3b27344
+type: Request
+parentId: fld_972777d1d42743eea098fd5aaf02d6b6
+modified: 1677019300943
+created: 1676393648436
+url: "{{ _.base_url }}/product/filter?productNumber=1"
+name: FILTER PRODUCT
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1676393648436
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

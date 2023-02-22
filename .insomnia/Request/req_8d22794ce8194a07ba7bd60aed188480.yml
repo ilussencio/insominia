@@ -1,0 +1,23 @@
+_id: req_8d22794ce8194a07ba7bd60aed188480
+type: Request
+parentId: fld_76b0f7aa84a24d07a838c20d451114c0
+modified: 1677027406489
+created: 1677019193474
+url: "{{ _.base_url }}/user"
+name: User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1676390517983.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

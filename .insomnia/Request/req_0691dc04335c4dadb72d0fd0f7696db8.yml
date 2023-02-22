@@ -1,0 +1,60 @@
+_id: req_0691dc04335c4dadb72d0fd0f7696db8
+type: Request
+parentId: fld_2ce5b8df6f30462f9b30f92de10455fa
+modified: 1677026850426
+created: 1677025052431
+url: "{{ _.base_url }}/client"
+name: NEW CLIENT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "activity": 0,
+      "address": "string",
+      "affiliatePrice": "string",
+      "bonusBalance": 0,
+      "cep": "string",
+      "cgcCpf": "string",
+      "checkouts": 0,
+      "city": 0,
+      "classification": "string",
+      "client": 0,
+      "complement": "string",
+      "contact": "string",
+      "contributionType": "string",
+      "corporateName": "string",
+      "country": "string",
+      "dateUltCpa": "2022-12-22",
+      "district": "string",
+      "f_11111": "string",
+      "fantasyName": "string",
+      "fone": 0,
+      "foneSintegra": 0,
+      "mail": "string",
+      "mailXml": "string",
+      "number": 0,
+      "openLimit": 0,
+      "rangeAlianca": 0,
+      "rangeColgate": 0,
+      "regime": "string",
+      "sector": 0,
+      "sit": "string",
+      "subscription": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1676384257078.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

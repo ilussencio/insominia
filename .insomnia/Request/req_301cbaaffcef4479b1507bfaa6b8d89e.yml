@@ -1,0 +1,23 @@
+_id: req_301cbaaffcef4479b1507bfaa6b8d89e
+type: Request
+parentId: fld_a3c6ebb469de480c881a4e7122b0a4f5
+modified: 1677019081757
+created: 1676467460592
+url: "{{ _.base_url }}/productGroup"
+name: GET
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1676743254890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

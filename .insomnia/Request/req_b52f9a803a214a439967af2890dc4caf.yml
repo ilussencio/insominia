@@ -1,0 +1,42 @@
+_id: req_b52f9a803a214a439967af2890dc4caf
+type: Request
+parentId: wrk_776d38d7143b4742ac5602a91b59d433
+modified: 1677027365974
+created: 1676381126626
+url: http://localhost:8080/app/v1/oauth/token
+name: Autenticate
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_adff36bf5a174320b05010f567da55f1
+      name: username
+      value: vendedor
+      description: ""
+    - id: pair_209479e7c7354d27916e050f0e13be01
+      name: password
+      value: P@$$word
+      description: ""
+    - id: pair_f25be2111509435a86ba619b0527b353
+      name: grant_type
+      value: password
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: client_id
+  password: 7EM^11HKTL#w
+metaSortKey: -1676381126626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

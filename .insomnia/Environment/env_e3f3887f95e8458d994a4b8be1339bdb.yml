@@ -1,0 +1,17 @@
+_id: env_e3f3887f95e8458d994a4b8be1339bdb
+type: Environment
+parentId: env_9b68a31ea6f652e8740776a30fef8315c2131037
+modified: 1677018954424
+created: 1677018840291
+name: TopFlex
+data:
+  base_url: http://localhost:8080/app/v1
+  token: "{% response 'body', 'req_b52f9a803a214a439967af2890dc4caf',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: "#47a976"
+isPrivate: false
+metaSortKey: 1677018840291

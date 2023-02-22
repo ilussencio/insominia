@@ -1,0 +1,17 @@
+_id: env_9b68a31ea6f652e8740776a30fef8315c2131037
+type: Environment
+parentId: wrk_776d38d7143b4742ac5602a91b59d433
+modified: 1677018838997
+created: 1676381126601
+name: Base Environment
+data:
+  base_url: http://localhost:8080/app/v1
+  token: "{% response 'body', 'req_b52f9a803a214a439967af2890dc4caf', _.token,
+    'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1676381126601

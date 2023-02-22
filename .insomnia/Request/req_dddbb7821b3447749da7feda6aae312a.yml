@@ -1,0 +1,23 @@
+_id: req_dddbb7821b3447749da7feda6aae312a
+type: Request
+parentId: fld_2ce5b8df6f30462f9b30f92de10455fa
+modified: 1677027282616
+created: 1677025064293
+url: "{{ _.base_url }}/client/filter?sit=p"
+name: CLIENTE PENDENTE
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1676385822304.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_6c58363dc8634ade811ce97b8a78d51a
+type: Request
+parentId: fld_2ce5b8df6f30462f9b30f92de10455fa
+modified: 1677027383085
+created: 1676405894791
+url: "{{ _.base_url }}/client/filter"
+name: FILTER CLIENT
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1676387387531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
